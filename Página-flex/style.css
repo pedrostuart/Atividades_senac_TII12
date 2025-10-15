@@ -13,7 +13,7 @@ button:hover{
     background-color: rgb(65, 65, 65);
 }
 main{
-    width: 1100PX;
+    max-width: 1100PX;
     margin: auto;
     
 }
