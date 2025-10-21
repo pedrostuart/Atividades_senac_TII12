@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(202, 48, 9);
+    position: fixed;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+#inicio{
+    background-color: rgb(255, 174, 0);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#inicio h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+/*CARROSEL IMAGEM E BOTÃO*/
+.carrossel{
+    display: flex;
+    align-items: center;
+}
+.carrossel img{
+    width: 700px;
+    border-radius: 20px;
+    
+}
+.carrossel button{
+    background: none;
+    border: none;
+    font-size: 2rem;
+    height: 32px;
+    margin: 20px;
+}
+.carrossel button:hover{
+    color: rgb(202, 48, 9);
+    cursor: pointer;
+}
+/*
+/*Lanches*/
+#lanches{
+    background-color: rgb(202, 48, 9);
+    height: 750px;
+}
+#lanches h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding: 40px 20px 20px 20px;
+}
+.box-lanches{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box-lanches img{
+    width: 400px;
+    border-radius: 15px;
+}
+/*
+/*Sobre Nos*/
+#sobre-nos{
+    background-color: rgb(255, 174, 0);
+}
+#sobre-nos h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding: 40px 20px 20px 20px;
+}
